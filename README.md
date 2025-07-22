@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task Management System
 
 A Spring Boot REST API application for managing tasks with full CRUD operations.
@@ -106,3 +107,6 @@ src/main/java/com/example/taskmanager/
     ├── TaskNotFoundException.java
     └── GlobalExceptionHandler.java
 ```
+=======
+# task-manager
+>>>>>>> 1047c25a2b5a9adec1c2c2540c1ba1666d6036ba
