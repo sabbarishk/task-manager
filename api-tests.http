@@ -1,0 +1,28 @@
+### Get All Tasks
+GET http://localhost:8080/api/tasks
+
+### Get Task by ID
+GET http://localhost:8080/api/tasks/1
+
+### Create New Task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "New Task from VS Code",
+  "description": "Testing API from VS Code",
+  "priority": "HIGH",
+  "status": "PENDING"
+}
+
+### Update Task Status
+PATCH http://localhost:8080/api/tasks/1/status?status=COMPLETED
+
+### Get Tasks by Status
+GET http://localhost:8080/api/tasks/status/PENDING
+
+### Get Task Statistics
+GET http://localhost:8080/api/tasks/stats
+
+### Search Tasks
+GET http://localhost:8080/api/tasks/search?title=Complete
